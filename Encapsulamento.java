@@ -49,7 +49,7 @@ public class Encapsulamento {
         People p2 = new People("Lorena", 19, 1.80, "Analista de Dados");
 
         System.out.println(p1.getNome());
-        p1.idade = 19;
+        p1.setIdade(19);
         System.out.println(p1.getIdade());
 
         System.out.println(p2.getIdade());
